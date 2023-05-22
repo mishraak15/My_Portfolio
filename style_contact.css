@@ -1,0 +1,26 @@
+#contact{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contactme{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3px 22px;
+}
+
+.contactme div{
+    font-size: 17px;
+    margin: 8px 0px;
+}
+
+.contactme div a{
+    text-decoration: none;
+    color: #b909f3;
+}
+
+.contactme div a:hover{
+    text-decoration: underline;
+    color: blue;
+    scale: 1.1;
+}

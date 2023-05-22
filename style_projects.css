@@ -1,0 +1,32 @@
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0px;
+    /* background-color: brown */
+}
+
+.project{
+/* background-color: cadetblue; */
+margin: 28px;
+padding: 0px 10px;
+height: auto;
+/* text-align: center; */
+
+}
+
+.project img{
+    height: 250px;
+    width: 550px;
+    margin: 9px auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.project div{
+    font-size: 17px;
+    color: violet;
+}
+
+.project p{
+    font-size: 14px;
+}
